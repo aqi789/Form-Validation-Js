@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTc5MzMzMXx8ZW58MHx8fHx8);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Graduate', serif;
+    height: 100vh;
+}
+
+label {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input {
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding-right: 170px;
+    border-radius: 4px;
+}
+
+.input1, .input2, .input3 {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    padding: 7px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #8d4c6a;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #522e3e;
+}
+.form-box {
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(https://images.unsplash.com/photo-1444080748397-f442aa95c3e5?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTc5MzMzMXx8ZW58MHx8fHx8);
+}
